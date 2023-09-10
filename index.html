@@ -45,6 +45,25 @@
         .button:hover {
             background-color: #a83131; /* Dunkleres Rot bei Hover-Effekt */
         }
+
+        /* Stile für den Patreon-Button */
+        .patreon-button {
+            background-color: #FF424D; /* Rot für den Patreon-Button-Hintergrund */
+            color: #fff; /* Weiße Schriftfarbe */
+            padding: 15px 30px; /* Abstand oben und unten */
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+            text-decoration: none; /* Entfernt die unterstrichene Textdekoration */
+            margin: 20px 0; /* Abstand oben und unten */
+            display: block; /* Vollständige Breite des Buttons */
+            transition: background-color 0.3s ease;
+        }
+
+        .patreon-button:hover {
+            background-color: #FF2A35; /* Dunkleres Rot bei Hover-Effekt */
+        }
     </style>
 </head>
 <body>
@@ -62,11 +81,8 @@
         </ul>
     </nav>
 
-    <!-- Inhalt der Startseite -->
-
-    <button class="patreon-button">
-        <a href="https://www.patreon.com/DieNDRundeOfficial" target="_blank">Unterstützen Sie uns auf Patreon</a>
-    </button>
+    <!-- Patreon-Button -->
+    <a href="https://www.patreon.com/DieNDRundeOfficial" class="patreon-button" target="_blank">Unterstützen Sie uns auf Patreon</a>
 
     <footer>
         <p>&copy; 2023 Die NDRunde. Alle Rechte vorbehalten.</p>
